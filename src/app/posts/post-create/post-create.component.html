@@ -1,0 +1,24 @@
+<form (submit)="onAddPost(postForm)" #postForm="ngForm">
+    <div class="form-group">
+        <label for="email">Title:</label>
+        <input type="text" name="title" ngModel class="form-control">
+      </div>
+      <div class="form-group"><br>
+        <label for="pwd">Content</label>
+        <textarea rows="6" name="content" ngModel class="form-control"></textarea>
+      </div>
+    
+    <button type="submit"  class="btn btn-primary mt-4"> Create Post</button>
+</form>
+
+<!-- <div>
+    <div>
+        <input type="text" [(ngModel)]="enteredTitle" placeholder="Post Title"/>
+    </div>
+    <br>    
+    <div>
+        <textarea rows="6" [(ngModel)]="enteredValue" placeholder="Post Description"></textarea>
+    </div>
+    <hr>
+    <button (click)="onAddPost()"> Submit Post</button>
+</div> -->
