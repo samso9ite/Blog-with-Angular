@@ -10,6 +10,7 @@
           <strong> {{post.content}}</strong>
         </div>
       </div>
+      <button class="btn btn-danger" (click)="onDelete(post.id)">Delete</button>
 </div>
 </div>
 <div *ngIf="posts.length <= 0">

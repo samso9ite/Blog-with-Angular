@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
 import { PostDetailComponent } from './posts/./post-detail/post-detail.component';
 import { PostsListComponent } from './posts/./posts-list/posts-list.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { PostsListComponent } from './posts/./posts-list/posts-list.component';
     PostCreateComponent,
     PostDetailComponent,
     PostsListComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
